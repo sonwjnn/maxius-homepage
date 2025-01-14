@@ -14,7 +14,7 @@ export default function Home() {
       credits={{ enabled: false }}
       licenseKey="OPEN-SOURCE-GPLV3-LICENSE"
       scrollingSpeed={1000} /* Tốc độ scroll */
-      render={({ fullpageApi }) => (
+      render={() => (
         <ReactFullpage.Wrapper>
           <Header />
           <div className="section">
