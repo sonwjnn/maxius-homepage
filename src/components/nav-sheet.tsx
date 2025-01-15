@@ -51,7 +51,7 @@ export const NavSheet = () => {
                 href={item.href}
                 key={item.href}
                 className={cn(
-                  "text-white text-[36px] transition-all duration-[2000] font-light",
+                  "text-white text-[36px] transition-all font-light",
                   isActive && "text-[#ff9933]"
                 )}
               >

@@ -1,0 +1,66 @@
+{
+  "MAXIUS": {
+    "title": "MAXIUS"
+  },
+  "HomePage": {
+    "hero": {
+      "heading": "MAX I & US",
+      "desc": "Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology.",
+      "footer": "Together, we will be the best in value and speed."
+    },
+    "explain": {
+      "one": "1.Self-produced sermiconductors",
+      "two": "2.Production and Sales of High- Performance Servers with self-manufactured semiconductors",
+      "three": "3.Construction Blockchain IDC based on high-performance servers",
+      "four": "4.Establish solution relating to Blockchain (IPFS)"
+    },
+    "features": {
+      "product": {
+        "title": "Product",
+        "desc": {
+          "one": "High-Performance Server with an extensive selection of serviceable capabilities Building IDC, incorporating the latest Storage technology applicable to various I/O devices various Blockchain Solutions, including IPFS.",
+          "two": "Maxius will continue to develop as a company in the global market by supplying a variety of products and solutions."
+        }
+      },
+      "technology": {
+        "title": "Technology",
+        "desc": {
+          "one": "Based on more than 20 years of research know-how and technology, we are the only company in Korea that makes HPC servers using self-developed system semiconductors and provides solutions specialized in the intelligent data center in the IT industry.",
+          "two": "With our services, Maxius strives to supply differentiated products and solutions."
+        }
+      },
+      "application": {
+        "title": "Application",
+        "desc": {
+          "one": "Maxius&apos; miscellaneous products are used for AI/genetic analysis, edge computing, IDC centers, as well as various solutions used for vast data analysis, distributed processing functions and IPFS IDC, etc.",
+          "two": "Maxius will supply serviceable products and solutions to varying fields through R&D and communication."
+        }
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "desc": {
+          "one": "storage and service utilized in Metaverse IPFS Storage and Application Services in Web3.0",
+          "two": "Maxius provides both H/W and S/W, which are optimized for decentralized storage to match customer needs and create the best added value."
+        }
+      }
+    },
+    "story": {
+      "history": {
+        "title": "History",
+        "desc": "Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology."
+      },
+      "partners": {
+        "title": "Partners",
+        "desc": "Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology."
+      },
+      "patents": {
+        "title": "Patents",
+        "desc": "Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology."
+      },
+      "awards": {
+        "title": "Awards",
+        "desc": "Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology. Maxius is the only self-developed semiconductor company that focuses on developing High-Performance Servers. We provide specialized solutions tailored towards different sectors of the IT industry and strive to break into the global market as a leader in server technology."
+      }
+    }
+  }
+}

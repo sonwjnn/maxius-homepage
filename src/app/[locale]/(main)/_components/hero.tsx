@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import { useTranslations } from "next-intl";
 export const Hero = () => {
+  const t = useTranslations("HomePage");
+
   const { ref: h1Ref, inView: h1InView } = useInView({
     triggerOnce: false,
     threshold: 0.2,
@@ -27,7 +29,7 @@ export const Hero = () => {
           transition={{ duration: 0.2, ease: "easeOut" }}
           ref={h1Ref}
         >
-          MAX I & US
+          {t("hero.heading")}
         </motion.h1>
 
         <div className="text-[#222222] text-[15px] sm:text-xl font-light">
@@ -38,11 +40,7 @@ export const Hero = () => {
             transition={{ delay: 0.5, duration: 0.5, ease: "easeOut" }}
             ref={p1Ref}
           >
-            Maxius is the only self-developed semiconductor company that focuses
-            on developing High-Performance Servers. We provide specialized
-            solutions tailored towards different sectors of the IT industry and
-            strive to break into the global market as a leader in server
-            technology.
+            {t("hero.desc")}
           </motion.p>
           <motion.p
             className="leading-snug mt-5 w-[232px] sm:w-auto sm:mt-[100px]"
@@ -51,7 +49,7 @@ export const Hero = () => {
             transition={{ delay: 0.6, duration: 0.5, ease: "easeOut" }}
             ref={p2Ref}
           >
-            Together, we will be the best in value and speed.
+            {t("hero.footer")}
           </motion.p>
         </div>
       </div>
