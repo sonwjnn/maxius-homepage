@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useMedia } from "react-use";
-
+import { useEffect, useState } from "react";
 type Props = {
   title: string;
   children: React.ReactNode;
