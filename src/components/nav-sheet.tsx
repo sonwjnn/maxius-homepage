@@ -1,27 +1,54 @@
-import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { useNavSheet } from "@/store/use-nav-sheet";
 import { sidelinks } from "@/data/sidelinks";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Separator } from "./ui/separator";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
-
+import Link from "next/link";
+import { useEffect, useRef } from "react";
 export const NavSheet = () => {
   const pathname = usePathname();
   const [open, setOpen] = useNavSheet();
+  const sheetRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape" && open) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [open, setOpen]);
 
   return (
-    <Sheet open={open} onOpenChange={setOpen}>
-      <SheetContent className="w-[90%] flex flex-col justify-between space-y-4 md:min-w-[40%] bg-[#0d183d] p-10">
+    <Sheet open={open}>
+      <SheetContent
+        className="w-[90%] flex flex-col justify-between space-y-4 md:min-w-[40%] bg-blue-sidebar p-10 border-0"
+        ref={sheetRef}
+      >
         <VisuallyHidden.Root>
           <SheetTitle></SheetTitle>
+          <SheetDescription></SheetDescription>
         </VisuallyHidden.Root>
+
         <div className="flex flex-col gap-y-2 pt-[150px]">
           {sidelinks.map((item) => {
             const isActive = pathname === item.href;
 
             return (
-              <div
+              <Link
+                href={item.href}
                 key={item.href}
                 className={cn(
                   "text-white text-[36px] transition-all duration-[2000] font-light",
@@ -29,7 +56,7 @@ export const NavSheet = () => {
                 )}
               >
                 {item.title}
-              </div>
+              </Link>
             );
           })}
         </div>
